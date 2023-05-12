@@ -16,7 +16,15 @@ eBPF enables load balancing capabilities within the kernel using programmable pa
 Each of these load balancing implementation approaches brings its own set of features and benefits. The kernel network stack provides built-in load balancing capabilities, while fd.io VPP and DPDK offer high-performance data plane processing for efficient load distribution. eBPF enables programmable load balancing within the kernel. Customers can choose the approach that aligns with their requirements and leverage popular software implementations like IPVS, HAProxy, NGINX, and Cilium to achieve scalable and reliable load balancing solutions.
 
 ## References:
-Kernel Network Stack: IPVS - https://www.linuxvirtualserver.org/
-fd.io VPP: FD.io - https://fd.io/, Honeycomb - https://wiki.fd.io/view/Honeycomb
-DPDK: DPDK - https://www.dpdk.org/, HAProxy - https://www.haproxy.org/, NGINX - https://www.nginx.com/
-eBPF: Cilium - https://cilium.io/, eBPF - https://ebpf.io/
+### Kernel Network Stack: 
+IPVS - https://www.linuxvirtualserver.org/
+### fd.io VPP: 
+FD.io - https://fd.io/, 
+Honeycomb - https://wiki.fd.io/view/Honeycomb
+### DPDK: 
+DPDK - https://www.dpdk.org/, 
+HAProxy - https://www.haproxy.org/, 
+NGINX - https://www.nginx.com/
+### eBPF: 
+Cilium - https://cilium.io/, 
+eBPF - https://ebpf.io/
